@@ -1,0 +1,810 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Ryan's App Academy Journal</title>
+        <link href="aa-journal-style.css" rel="stylesheet" type="text/css">
+        <script src="./aa-journal.js"></script>
+    </head>
+    <body>
+        <h1>Ryan's App Academy Journal</h1>
+        <div class="links-container">
+            <button id="linkedin-button"><img id="linkedin-logo" src="./images/linkedin.png"/>LinkedIn</button>
+            <button id="github-button"><img id="github-logo" src="./images/github.png"/>GitHub</button>
+        </div>
+            <h2>Mod 1: Intro to Programming JavaScript</h2>
+                <div class="week_container">
+                    <h3><span>Week 1: Intro to JavaScript</span></h3>
+                        <div class="days_container">
+                            <ul>
+                                <li><strong>Day 1: Orientation</strong></li>
+                                    <ul>
+                                        <li>Met cohort staff and was informed on available resources through bootcamp</li>
+                                        <li>Got an overview of what to expect and got tips on how to succeed once work picks up</li>
+                                        <li>Went over computer setup and confirmed everything needed was installed/downloaded</li>
+                                        <li>Completed Day 1 HW and started Day 2 HW</li>
+                                    </ul>
+                                <li><strong>Day 2: Intro to JavaScript (Basics)</strong></li>
+                                    <ul>
+                                        <li>Started the Intro to JavaScript:</li>
+                                            <ul>
+                                                <li>debugging, numbers, booleans, operators, strings, control flow (conditionals and loops), and arrays</li>
+                                            </ul>
+                                        <li>Started cloning Mod Resources repos and learned to pull from GitHub to update it</li>
+                                        <li>Practiced coding using what was learned in lecture</li>
+                                    </ul>
+                                <li><strong>Day 3: Intro to JavaScript (Intermediate Functions)</strong></li>
+                                    <ul>
+                                        <li>Started with intermediate functions:</li>
+                                            <ul>
+                                                <li>function expression syntax, methods with arrays, mutability, and nested loops</li>
+                                            </ul>
+                                        <li>Learned you can edit MDN code examples: very helpful</li>
+                                        <li>Practiced coding functions using what was learned in lecture</li>
+                                    </ul>
+                                <li><strong>Day 4: Intro to JavaScript (Helper Functions)</strong></li>
+                                    <ul>
+                                        <li>Started with helper functions</li>
+                                        <li>Spent most of class practicing coding intermediate and helper functions</li>
+                                        <li>Lucky Numbers was tough, got solution for a 3x3 matrix but couldn't get the 3x4 matrix to work</li>
+                                            <ul>
+                                                <li>Used 2 helper functions: rowMins and columnMaxes</li>
+                                                <li>On the 3x4, rowMins worked, but columnMaxes would iterate through the first column and then get stuck</li>
+                                                <li>The error message makes me think it was defining the matrix type as undefined instead of array after the first column</li>
+                                                <li>Maybe can get help from an instructor...</li>
+                                            </ul>
+                                        <li>Didn't get to attempting Spiral Matrix</li>
+                                    </ul>
+                                <li><strong>Day 5: Practice Assessment</strong></li>
+                                    <ul>
+                                        <li>Spent the first half of the day taking a practice assessment to prep for next Monday</li>
+                                            <ul>
+                                                <li>Minor technical difficulties as a shorter practice was released in a similarly named PT track</li>
+                                                <li>Was told this was the assessment, joined breakout room and turned off Slack to simulate an actual assessment</li>
+                                                <li>Finished early, came back to Slack and saw this was not the practice assessment, whoops</li>
+                                                <li>Luckily, all questions on the shorter practice were also on the actual practice so was still able to finish early :)</li>
+                                            </ul>
+                                        <li>Second half of the day Drew went through a practice assessment with everyone, could skip if you got a 100%</li>
+                                        <li>Got a 100% on the practice so fixed Lucky Numbers and did Spiral Matrix during the practice assessment walkthough</li>
+                                            <ul>
+                                                <li>columnMaxes for Lucky Numbers had the ranges (height and width) switched in my implementation yesterday</li>
+                                                <li>Spiral Matrix didn't take too long for the given cases, but implementing it for any sized matrix took ~3 hours</li>
+                                                    <ul>
+                                                        <li>Used an algorithm to match the spiral's pattern</li>
+                                                        <li>Involved 4 nested for loops within a for loop... will look to make a more efficient solution with arrow functions later</li>
+                                                    </ul>
+                                            </ul>
+                                        <li>Won the first kahoot game and got to pick a new emoji: <a href= "images/sad-kermit.jpg"><img class="slack_emoji" src="images/sad-kermit.jpg" alt = "sad-kermit Emoji"></a></li>
+                                    </ul>
+                            </ul>
+                        </div>
+                </div>
+
+                <div class="week_container">
+                    <h3><span>Week 2: Objects, Callbacks, Scope, and Closure</span></h3>
+                        <div class="days_container">
+                            <ul>
+                                <li><strong>Day 1: Week 1 Assessment, Arrow Functions, and Objects</strong></li>
+                                    <ul>
+                                        <li>First two hours were spent on the first assessment, finished early so looked ahead at rest of the day's materials</li>
+                                        <li>Started lectures on arrow function and objects and how to use them</li>
+                                        <li>Practiced iterating through objects, using objects in functions, and using arrow function notation</li>
+                                    </ul>
+                                <li><strong>Day 2: More Objects, Rest, Spread, Destructuring, and Advanced Array Methods</strong></li>
+                                    <ul>
+                                        <li>Did more practice using and accessing values within objects</li>
+                                        <li>Practiced using spread and rest within functions</li>
+                                        <li>Started learning about and working with advanced array methods: forEach, map, filter, and reduce</li>
+                                    </ul>
+                                <li><strong>Day 3: More Advanced Array Methods and First Pair Programming</strong></li>
+                                    <ul>
+                                        <li>Got much more comfortable using the advanced array methods</li>
+                                        <li>In pair programming spent most of the time as the navigator and guiding the direction each problem went</li>
+                                    </ul>
+                                <li><strong>Day 4: Closures, Scope, and Different Variable Declaratons</strong></li>
+                                    <ul>
+                                        <li>Learned about the 3 different scopes in JS: global, function/local, and block</li>
+                                        <li>Got to learn new VSCode shortcuts during pair programming, getting more used to rotating in pairs</li>
+                                    </ul>
+                                <li><strong>Day 5: Practice Assessment</strong></li>
+                                    <ul>
+                                        <li>Got a 100% on the second practice assessment, spent the rest of the day doing practice problems for the Week 2 Assessment</li>
+                                        <li>Won the second kahoot game and got to pick another emoji: <a href= "images/here's-the-new-emoji.jpg"><img class="slack_emoji" src="images/here's-the-new-emoji.jpg" alt = "heres-the-new-emoji Emoji"></a></li>
+                                    </ul>
+                            </ul>
+                        </div>
+                </div>
+
+                <div class="week_container">
+                    <h3><span>Week 3: Recrusion, IIFEs, and Asynchronous JS</span></h3>
+                        <div class="days_container">
+                            <ul>
+                                <li><strong>Day 1: Week 2 Assessment, String Interpolation, and VSCode Debugging</strong></li>
+                                    <ul>
+                                        <li>Week 3 was done from NYC @ Nathaniel's apartment (s/o Nathaniel)</li>
+                                        <li>Got a 100% on the assessment, started looking ahead to recursion</li>
+                                        <li>String Interpolation will making working with strings much easier</li>
+                                    </ul>
+                                <li><strong>Day 2: Recursion</strong></li>
+                                    <ul>
+                                        <li>Simpler problems weren't too bad, more advance problems made my head hurt</li>
+                                        <li>Writing out the stack/ pattern on your code helped breakdown the problems to make them more digestible</li>
+                                    </ul>
+                                <li><strong>Day 3: IIFEs and More Recursion</strong></li>
+                                    <ul>
+                                        <li>Learned about IIFEs (Immediately Invoked Function Expressions)</li>
+                                            <ul>
+                                                <li>Not used since 'let' and 'const' were introduced, but may be in legacy code at future jobs</li>
+                                            </ul>
+                                        <li>Went back to working on the more advance problems, got deepDup and subsets</li>
+                                    </ul>
+                                <li><strong>Day 4: More Recursion</strong></li>
+                                    <ul>
+                                        <li>Got through makeTree and permutations, and greedyMakeChange... need to figure out betterMakeChange still</li>
+                                        <li>Last kahoot of Mod 1, got the 3peat and got to pick another emoji: <a href= "images/my-fault.jpg"><img class="slack_emoji" src="images/my-fault.jpg" alt = "my-fault Emoji"> </a></li>
+                                    </ul>
+                                <li><strong>Day 5: Pracitce Assessment and Even More Recursion</strong></li>
+                                    <ul>
+                                        <li>Finished practice assessment 2 hours early and got another 100%</li>
+                                        <li>Last day with Mod 1 staff. Sad but excited for Mod 2</li>
+                                    </ul>
+                            </ul>
+                        </div>
+                </div>
+
+            <h2>Mod 2: OOP, TDD, Data Structures, Algorithms</h2>
+                <div class="week_container">
+                    <h3><span>Week 4: Test Driven Development and Object Oriented Programming</span></h3>
+                        <div class="days_container">
+                            <ul>
+                                <li><strong>Day 1: Starting OOP and Test Driven Development: DRY, Reading Tests, Etc. </strong></li>
+                                <ul>
+                                    <li>Got a 100% on the assessment. Used extra time to look ahead to week 4 material</li>
+                                </ul>
+                                <li><strong>Day 2: ES6 Classes</strong></li>
+                                <ul>
+                                    <li>Started learning more on classes and how to create methods (both instance and static)</li>
+                                    <li>Learned of OOP pillars and how they can be used with classes</li>
+                                </ul>
+                                <li><strong>Day 3: Context (Bind, Call, Apply)</strong></li>
+                                <ul>
+                                    <li>Learned about context (revolving around the this keyword) and how to manipulate it</li>
+                                    <li>Learned how bind returns the function bound in the specific context while call and apply invoke the function in that specific context</li>
+                                </ul>
+                                <li><strong>Day 4: TDD</strong></li>
+                                <ul>
+                                    <li>Learned how to write chai tests using the mocha test framework</li>
+                                    <ul>
+                                        <li>Chai has some pretty bad documentation...</li>
+                                    </ul>
+                                    <li>Red, green, refactor is a great way to work as it clarifies what you're trying to do with your code and cuts out anything that is unnecessary</li>
+                                </ul>
+                                <li><strong>Day 5: ES5 Class Syntax</strong></li>
+                                <ul>
+                                    <li>Got a 100% on the PA, worrked through phase 5 (triangles) for w4d4's long practice for the rest of class</li>
+                                    <li>Did not win the kahoot this week, got 3rd. Will run it back next week</li>
+                                </ul>
+                            </ul>
+                        </div>
+                </div>
+
+                <div class="week_container">
+                    <h3><span>Week 5: Big-O and Linear Data Structures</span></h3>
+                        <div class="days_container">
+                            <ul>
+                                <li><strong>Day 1: Big-O Arrays</strong></li>
+                                <ul>
+                                    <li>Got a 25/27 on the assessment, was not careful enough on the MC section</li>
+                                    <li>Finished early, started looking at the material for the rest of the day (big-O analysis)</li>
+                                </ul>
+                                <li><strong>Day 2: Binary Hexa ASCII Memory Arrays</strong></li>
+                                <ul>
+                                    <li>Worked through the practices and long practices</li>
+                                    <li>Learned how to convert between decimal, binary, hexadecimal, and ASCII</li>
+                                </ul>
+                                <li><strong>Day 3: Linked Lists and Queues</strong></li>
+                                <ul>
+                                    <li>Learned how to use singly and doubly linked lists</li>
+                                    <li>Then learned how to use a doubly linked list to implement a queue</li>
+                                </ul>
+                                <li><strong>Day 4: Hash Tables and Sets</strong></li>
+                                <ul>
+                                    <li>Learned the details of hash tables: hashing, hash modding, handling hash collisions</li>
+                                    <li>Also learned how to implement sets when appropriate to significantly improve time complexity</li>
+                                </ul>
+                                <li><strong>Day 5: Whiteboarding</strong></li>
+                                <ul>
+                                    <li>Practiced for the assessment, practice out of order due to Thanksgiving</li>
+                                </ul>
+                            </ul>
+                        </div>
+                </div>
+
+                <div class="week_container">
+                    <h3><span>Week 6: Sorting, Trees, Graphs</span></h3>
+                        <div class="days_container">
+                            <ul>
+                                <li><strong>Day 1: Sorting: Bubble, Insertion, Selection</strong></li>
+                                <ul>
+                                    <li>Got a 30/31 on the assessment, still feel like not handling hash collisions is a still considered a way of handling has collisions, but it is what it is</li>
+                                    <li>Finished assessment early, started working on bubble sort practice early</li>
+                                    <li>Insertion sort had some of the vaguest pseudocode I've ever looked at, but got it after TAs helped</li>
+                                </ul>
+                                <li><strong>Day 2: Binary Search, Merge Sort, Quick Sort</strong></li>
+                                <ul>
+                                    <li>Sorts were a lot easier to understand on a fresher brain</li>
+                                    <li>Got to better understand the quicksort I used back in Week 3</li>
+                                </ul>
+                                <li><strong>Day 3: Binary Search Trees</strong></li>
+                                <ul>
+                                    <li>Learned the differences between BTs and BSTs and how all BSTs are BTs but not all BTs are BSTs</li>
+                                    <li>BSTs need to have lower values go to its parent's left node and higher values go to its parent's right node</li>
+                                </ul>
+                                <li><strong>Day 4: Graphs</strong></li>
+                                <ul>
+                                    <li>Graphs are just nodes with edges connecting them, don't need to be sorted or have a ceratin amount of parent/children nodes</li>
+                                    <li>Graphs can also have cycles, need to introduce the visited set to avoid infinite loops</li>
+                                </ul>
+                                <li><strong>Day 5: Whiteboarding</strong></li>
+                                <ul>
+                                    <li>Didn't really do this day, again becasue of short weeks from Thanksgiving</li>
+                                </ul>
+                            </ul>
+                        </div>
+                </div>
+
+            <h2>Mod 3: HTML, CSS, Front and Back End JS</h2>
+                <div class="week_container">
+                    <h3><span>Week 7: HTML and CSS</span></h3>
+                        <div class="days_container">
+                            <ul>
+                                <li><strong>Day 1: Design Basics, HTML, and Wireframes</strong></li>
+                                <ul>
+                                    <li>Took the assessment, finished early with a 24/25</li>
+                                    <li>Learned basic design priciples and HTML semantics</li>
+                                    <li>Feels like review from the work done prior to starting bootcamp</li>
+                                </ul>
+                                <li><strong>Day 2: CSS</strong></li>
+                                <ul>
+                                    <li>Learned how to link CSS files to HTML docs to style them</li>
+                                    <li>Learned basics of CSS and how to use selectors</li>
+                                </ul>
+                                <li><strong>Day 3: CSS Flexbox and Grid</strong></li>
+                                <ul>
+                                    <li>Learned different layout settings: flexbox and grid</li>
+                                    <li>Used a combination of both to recreate Trello and make the a/A Times</li>
+                                </ul>
+                                <li><strong>Day 4: Deploying Static Projects and Making Clones</strong></li>
+                                <ul>
+                                    <li>Learned about making clones using specs and then deploying the static projects with Netlify</li>
+                                    <li>Made the website "EventSight" and used media queries to ensure function and proper design on Desktop and Mobile</li>
+                                </ul>
+                                <li><strong>Day 5:</strong></li>
+                                <ul>
+                                    <li>Studied for Monday's assessment</li>
+                                    <li>Won this week's kahoot game and got to pick another 2 emojis: <a href= "images/oh-fr.jpg"><img class="slack_emoji" src="images/oh-fr.jpg" alt = "crab-rangoon Emoji"></a> and <a href= "images/ay-yo.jpg"><img class="slack_emoji" src="images/ay-yo.jpg" alt = "ay-yo Emoji"></a></li>
+                                </ul>
+                            </ul>
+                        </div>
+                </div>
+
+                <div class="week_container">
+                    <h3><span>Week 8: HTTP, REST, APIs, Servers, Promises</span></h3>
+                        <div class="days_container">
+                            <ul>
+                                <li><strong>Day 1:Traditional HTML HTTP Servers</strong></li>
+                                <ul>
+                                    <li>Took the assessment, finished early with a 57/57 (finally didn't mess up 1 or 2 MC questions)</li>
+                                    <li>Started learning about HTTP servers and their components (requests and response)</li>
+                                    <li>Also learned RESTful route convention and status codes</li>
+                                    <li>Can only use GET and POST from all the CRUD operators w/ traditional HTML servers</li>
+                                </ul>
+                                <li><strong>Day 2: Postman , Creating Route Handlers, Parsing Request Bodies, HTML Templating</strong></li>
+                                <ul>
+                                    <li>Started to use what was learned Monday to start creating servers and giving them functionality</li>
+                                    <li>Learned that you cannot see when you serve static assets like CSS and images in Postman</li>
+                                </ul>
+                                <li><strong>Day 3: Promises and Fetch</strong></li>
+                                <ul>
+                                    <li>Learned what promises are, the states they can be in, and how they work</li>
+                                    <li>Learned how to use fetch to create route handlers that return promises and then how to handle those promises</li>
+                                </ul>
+                                <li><strong>Day 4: JSON and Web API Servers</strong></li>
+                                <ul>
+                                    <li>Learned everything learned for traditional HTML servers but in the context of Web API servers using JSON</li>
+                                    <li>Can use all the CRUD operator verbs with Web API servers: GET, POST, PUT, PATCH, DELETE</li>
+                                </ul>
+                                <li><strong>Day 5: Assessment Review</strong></li>
+                                <ul>
+                                    <li>Took the PA (got another 100%) and used the rest of class to review Week 8 materials for Monday's assessment</li>
+                                    <li>Sat out this week's kahoot to give everyone else a chance at an emoji</li>
+                                </ul>
+                            </ul>
+                        </div>
+                </div>
+
+                <div class="week_container">
+                    <h3><span>Week 9: Browser, DOM, Events, and Storage</span></h3>
+                        <div class="days_container">
+                            <ul>
+                                <li><strong>Day 1: DOM vs BOM</strong></li>
+                                <ul>
+                                    <li>Passed assessment with only 1 MC wrong (205/209)</li>
+                                    <li>Reviewed importing/exporting and how to link JS and HTML files</li>
+                                </ul>
+                                <li><strong>Day 2: Creating, Modifying, and Removing HTML Elements w/ JS</strong></li>
+                                <ul>
+                                    <li>Practiced modifying HTML files using the DOM in JS</li>
+                                </ul>
+                                <li><strong>Day 3: Event Handling and Event Propagation</strong></li>
+                                <ul>
+                                    <li>Increased the amount of functionality I can implement with event handlers</li>
+                                    <li>Can take advantage of propagation if not stopped, can use stopPropagation to prevent it if desired though</li>
+                                </ul>
+                                <li><strong>Day 4: Web Storage (Local and Session) and Cookies</strong></li>
+                                <ul>
+                                    <li>Learned 3 ways of storing data from a browser: localStorage, sessionStorage, and cookies</li>
+                                    <li>localStorage and sessionStorage easier to use in my opinion</li>
+                                </ul>
+                                <li><strong>Day 5: Study Day</strong></li>
+                                <ul>
+                                    <li>Did the PA and got a 100%</li>
+                                    <li>Tried to study, but storm kept knocking power out</li>
+                                </ul>
+                            </ul>
+                        </div>
+                </div>
+
+            <h2>Mod 4: Relational DBS, Express, Project!</h2>
+                <div class="week_container">
+                    <h3><span>Week 10:</span></h3>
+                        <div class="days_container">
+                            <ul>
+                                <li><strong>Day 1:</strong></li>
+                                <ul>
+                                    <li></li>
+                                </ul>
+                                <li><strong>Day 2:</strong></li>
+                                <ul>
+                                    <li></li>
+                                </ul>
+                                <li><strong>Day 3:</strong></li>
+                                <ul>
+                                    <li></li>
+                                </ul>
+                                <li><strong>Day 4:</strong></li>
+                                <ul>
+                                    <li></li>
+                                </ul>
+                                <li><strong>Day 5:</strong></li>
+                                <ul>
+                                    <li></li>
+                                </ul>
+                            </ul>
+                        </div>
+                </div>
+
+                <div class="week_container">
+                    <h3><span>Week 11:</span></h3>
+                        <div class="days_container">
+                            <ul>
+                                <li><strong>Day 1:</strong></li>
+                                <ul>
+                                    <li></li>
+                                </ul>
+                                <li><strong>Day 2:</strong></li>
+                                <ul>
+                                    <li></li>
+                                </ul>
+                                <li><strong>Day 3:</strong></li>
+                                <ul>
+                                    <li></li>
+                                </ul>
+                                <li><strong>Day 4:</strong></li>
+                                <ul>
+                                    <li></li>
+                                </ul>
+                                <li><strong>Day 5:</strong></li>
+                                <ul>
+                                    <li></li>
+                                </ul>
+                            </ul>
+                        </div>
+                </div>
+
+                <div class="week_container">
+                    <h3><span>Week 12:</span></h3>
+                        <div class="days_container">
+                            <ul>
+                                <li><strong>Day 1:</strong></li>
+                                <ul>
+                                    <li></li>
+                                </ul>
+                                <li><strong>Day 2:</strong></li>
+                                <ul>
+                                    <li></li>
+                                </ul>
+                                <li><strong>Day 3:</strong></li>
+                                <ul>
+                                    <li></li>
+                                </ul>
+                                <li><strong>Day 4:</strong></li>
+                                <ul>
+                                    <li></li>
+                                </ul>
+                                <li><strong>Day 5:</strong></li>
+                                <ul>
+                                    <li></li>
+                                </ul>
+                            </ul>
+                        </div>
+                </div>
+
+                <div class="week_container">
+                    <h3><span>Week 13:</span></h3>
+                        <div class="days_container">
+                            <ul>
+                                <li><strong>Day 1:</strong></li>
+                                <ul>
+                                    <li></li>
+                                </ul>
+                                <li><strong>Day 2:</strong></li>
+                                <ul>
+                                    <li></li>
+                                </ul>
+                                <li><strong>Day 3:</strong></li>
+                                <ul>
+                                    <li></li>
+                                </ul>
+                                <li><strong>Day 4:</strong></li>
+                                <ul>
+                                    <li></li>
+                                </ul>
+                                <li><strong>Day 5:</strong></li>
+                                <ul>
+                                    <li></li>
+                                </ul>
+                            </ul>
+                        </div>
+                </div>
+
+            <h2>Mod 5: React, Redux, Project!</h2>
+                <div class="week_container">
+                    <h3><span>Week 14:</span></h3>
+                        <div class="days_container">
+                            <ul>
+                                <li><strong>Day 1:</strong></li>
+                                <ul>
+                                    <li></li>
+                                </ul>
+                                <li><strong>Day 2:</strong></li>
+                                <ul>
+                                    <li></li>
+                                </ul>
+                                <li><strong>Day 3:</strong></li>
+                                <ul>
+                                    <li></li>
+                                </ul>
+                                <li><strong>Day 4:</strong></li>
+                                <ul>
+                                    <li></li>
+                                </ul>
+                                <li><strong>Day 5:</strong></li>
+                                <ul>
+                                    <li></li>
+                                </ul>
+                            </ul>
+                        </div>
+                </div>
+
+                <div class="week_container">
+                    <h3><span>Week 15:</span></h3>
+                        <div class="days_container">
+                            <ul>
+                                <li><strong>Day 1:</strong></li>
+                                <ul>
+                                    <li></li>
+                                </ul>
+                                <li><strong>Day 2:</strong></li>
+                                <ul>
+                                    <li></li>
+                                </ul>
+                                <li><strong>Day 3:</strong></li>
+                                <ul>
+                                    <li></li>
+                                </ul>
+                                <li><strong>Day 4:</strong></li>
+                                <ul>
+                                    <li></li>
+                                </ul>
+                                <li><strong>Day 5:</strong></li>
+                                <ul>
+                                    <li></li>
+                                </ul>
+                            </ul>
+                        </div>
+                </div>
+
+                <div class="week_container">
+                    <h3><span>Week 16:</span></h3>
+                        <div class="days_container">
+                            <ul>
+                                <li><strong>Day 1:</strong></li>
+                                <ul>
+                                    <li></li>
+                                </ul>
+                                <li><strong>Day 2:</strong></li>
+                                <ul>
+                                    <li></li>
+                                </ul>
+                                <li><strong>Day 3:</strong></li>
+                                <ul>
+                                    <li></li>
+                                </ul>
+                                <li><strong>Day 4:</strong></li>
+                                <ul>
+                                    <li></li>
+                                </ul>
+                                <li><strong>Day 5:</strong></li>
+                                <ul>
+                                    <li></li>
+                                </ul>
+                            </ul>
+                        </div>
+                </div>
+
+            <h2>Mod 6: React, Python, Project!</h2>
+                <div class="week_container">
+                    <h3><span>Week 17:</span></h3>
+                        <div class="days_container">
+                            <ul>
+                                <li><strong>Day 1:</strong></li>
+                                <ul>
+                                    <li></li>
+                                </ul>
+                                <li><strong>Day 2:</strong></li>
+                                <ul>
+                                    <li></li>
+                                </ul>
+                                <li><strong>Day 3:</strong></li>
+                                <ul>
+                                    <li></li>
+                                </ul>
+                                <li><strong>Day 4:</strong></li>
+                                <ul>
+                                    <li></li>
+                                </ul>
+                                <li><strong>Day 5:</strong></li>
+                                <ul>
+                                    <li></li>
+                                </ul>
+                            </ul>
+                        </div>
+                </div>
+
+                <div class="week_container">
+                    <h3><span>Week 18:</span></h3>
+                        <div class="days_container">
+                            <ul>
+                                <li><strong>Day 1:</strong></li>
+                                <ul>
+                                    <li></li>
+                                </ul>
+                                <li><strong>Day 2:</strong></li>
+                                <ul>
+                                    <li></li>
+                                </ul>
+                                <li><strong>Day 3:</strong></li>
+                                <ul>
+                                    <li></li>
+                                </ul>
+                                <li><strong>Day 4:</strong></li>
+                                <ul>
+                                    <li></li>
+                                </ul>
+                                <li><strong>Day 5:</strong></li>
+                                <ul>
+                                    <li></li>
+                                </ul>
+                            </ul>
+                        </div>
+                </div>
+
+                <div class="week_container">
+                    <h3><span>Week 19:</span></h3>
+                        <div class="days_container">
+                            <ul>
+                                <li><strong>Day 1:</strong></li>
+                                <ul>
+                                    <li></li>
+                                </ul>
+                                <li><strong>Day 2:</strong></li>
+                                <ul>
+                                    <li></li>
+                                </ul>
+                                <li><strong>Day 3:</strong></li>
+                                <ul>
+                                    <li></li>
+                                </ul>
+                                <li><strong>Day 4:</strong></li>
+                                <ul>
+                                    <li></li>
+                                </ul>
+                                <li><strong>Day 5:</strong></li>
+                                <ul>
+                                    <li></li>
+                                </ul>
+                            </ul>
+                        </div>
+                </div>
+
+                <div class="week_container">
+                    <h3><span>Week 20:</span></h3>
+                        <div class="days_container">
+                            <ul>
+                                <li><strong>Day 1:</strong></li>
+                                <ul>
+                                    <li></li>
+                                </ul>
+                                <li><strong>Day 2:</strong></li>
+                                <ul>
+                                    <li></li>
+                                </ul>
+                                <li><strong>Day 3:</strong></li>
+                                <ul>
+                                    <li></li>
+                                </ul>
+                                <li><strong>Day 4:</strong></li>
+                                <ul>
+                                    <li></li>
+                                </ul>
+                                <li><strong>Day 5:</strong></li>
+                                <ul>
+                                    <li></li>
+                                </ul>
+                            </ul>
+                        </div>
+                </div>
+
+            <h2>Mod 7: Portfolio & Job Search Strategies</h2>
+                <div class="week_container">
+                    <h3><span>Week 21:</span></h3>
+                        <div class="days_container">
+                            <ul>
+                                <li><strong>Day 1:</strong></li>
+                                <ul>
+                                    <li></li>
+                                </ul>
+                                <li><strong>Day 2:</strong></li>
+                                <ul>
+                                    <li></li>
+                                </ul>
+                                <li><strong>Day 3:</strong></li>
+                                <ul>
+                                    <li></li>
+                                </ul>
+                                <li><strong>Day 4:</strong></li>
+                                <ul>
+                                    <li></li>
+                                </ul>
+                                <li><strong>Day 5:</strong></li>
+                                <ul>
+                                    <li></li>
+                                </ul>
+                            </ul>
+                        </div>
+                </div>
+
+                <div class="week_container">
+                    <h3><span>Week 22:</span></h3>
+                        <div class="days_container">
+                            <ul>
+                                <li><strong>Day 1:</strong></li>
+                                <ul>
+                                    <li></li>
+                                </ul>
+                                <li><strong>Day 2:</strong></li>
+                                <ul>
+                                    <li></li>
+                                </ul>
+                                <li><strong>Day 3:</strong></li>
+                                <ul>
+                                    <li></li>
+                                </ul>
+                                <li><strong>Day 4:</strong></li>
+                                <ul>
+                                    <li></li>
+                                </ul>
+                                <li><strong>Day 5:</strong></li>
+                                <ul>
+                                    <li></li>
+                                </ul>
+                            </ul>
+                        </div>
+                </div>
+
+                <div class="week_container">
+                    <h3><span>Week 23:</span></h3>
+                        <div class="days_container">
+                            <ul>
+                                <li><strong>Day 1:</strong></li>
+                                <ul>
+                                    <li></li>
+                                </ul>
+                                <li><strong>Day 2:</strong></li>
+                                <ul>
+                                    <li></li>
+                                </ul>
+                                <li><strong>Day 3:</strong></li>
+                                <ul>
+                                    <li></li>
+                                </ul>
+                                <li><strong>Day 4:</strong></li>
+                                <ul>
+                                    <li></li>
+                                </ul>
+                                <li><strong>Day 5:</strong></li>
+                                <ul>
+                                    <li></li>
+                                </ul>
+                            </ul>
+                        </div>
+                </div>
+
+                <div class="week_container">
+                    <h3><span>Week 24:</span></h3>
+                        <div class="days_container">
+                            <ul>
+                                <li><strong>Day 1:</strong></li>
+                                <ul>
+                                    <li></li>
+                                </ul>
+                                <li><strong>Day 2:</strong></li>
+                                <ul>
+                                    <li></li>
+                                </ul>
+                                <li><strong>Day 3:</strong></li>
+                                <ul>
+                                    <li></li>
+                                </ul>
+                                <li><strong>Day 4:</strong></li>
+                                <ul>
+                                    <li></li>
+                                </ul>
+                                <li><strong>Day 5:</strong></li>
+                                <ul>
+                                    <li></li>
+                                </ul>
+                            </ul>
+                        </div>
+                </div>
+
+            <h2>Job Search</h2>
+                <div class="week_container">
+                    <h3><span>Week 25:1st Week of Job Search</span></h3>
+                        <div class="days_container">
+                            <ul>
+                                <li><strong>Day 1:</strong></li>
+                                <ul>
+                                    <li></li>
+                                </ul>
+                                <li><strong>Day 2:</strong></li>
+                                <ul>
+                                    <li></li>
+                                </ul>
+                                <li><strong>Day 3:</strong></li>
+                                <ul>
+                                    <li></li>
+                                </ul>
+                                <li><strong>Day 4:</strong></li>
+                                <ul>
+                                    <li></li>
+                                </ul>
+                                <li><strong>Day 5:</strong></li>
+                                <ul>
+                                    <li></li>
+                                </ul>
+                            </ul>
+                        </div>
+                </div>
+    </body>
+</html>
