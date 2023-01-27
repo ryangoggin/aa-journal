@@ -1,5 +1,5 @@
-//adding images and functionality to link buttons
 window.onload = () => {
+    //adding images and functionality to link buttons
     const linkedinBtn = document.querySelector("#linkedin-button");
     const githubBtn = document.querySelector("#github-button");
 
@@ -12,4 +12,12 @@ window.onload = () => {
         window.open("https://github.com/ryangoggin", "_blank").focus();
     }
     githubBtn.addEventListener("click", goToGithub);
+
+    //make project containers links to their GitHub repos
+    const backendProj = document.querySelector(".backend_project");
+
+    const goToBackendRepo = () => {
+        window.open("https://github.com/ryangoggin/AirBnB-clone-project", "_blank");
+    }
+    backendProj.addEventListener("click", goToBackendRepo);
 }

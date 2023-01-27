@@ -110,6 +110,10 @@ ul, li {
     background-color: antiquewhite;
 }
 
+.backend_project:hover {
+    cursor: pointer;
+}
+
 .days_container {
     position: relative;
     bottom: 12px;
