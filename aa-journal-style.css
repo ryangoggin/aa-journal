@@ -114,6 +114,10 @@ ul, li {
     cursor: pointer;
 }
 
+.frontend_project:hover {
+    cursor: pointer;
+}
+
 .days_container {
     position: relative;
     bottom: 12px;

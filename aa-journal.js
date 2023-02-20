@@ -20,4 +20,11 @@ window.onload = () => {
         window.open("https://github.com/ryangoggin/AirBnB-clone-project", "_blank");
     }
     backendProj.addEventListener("click", goToBackendRepo);
+
+    const frontendProj = document.querySelector(".frontend_project");
+
+    const goToFrontendRepo = () => {
+        window.open("https://github.com/ryangoggin/AirBnB-clone-project", "_blank");
+    }
+    frontendProj.addEventListener("click", goToFrontendRepo);
 }
