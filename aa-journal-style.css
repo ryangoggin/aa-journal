@@ -118,6 +118,14 @@ ul, li {
     cursor: pointer;
 }
 
+.group_project:hover {
+    cursor: pointer;
+}
+
+.capstone_project:hover {
+    cursor: pointer;
+}
+
 .days_container {
     position: relative;
     bottom: 12px;
